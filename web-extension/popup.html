@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+         button {
+            height: 30px;
+            width: 90px;
+            margin-top: 7px;
+         }
+         p {
+            font-size: 10px;
+         }
+         body {
+            width: 250px;
+            font-family: Arial, Helvetica, sans-serif;
+         }
+         a:link, a:visited {
+            text-decoration: none;
+         }
+      </style>
+   </head>
+   <body>
+      <h1>Otomatik Obis</h1>
+      <label>Öğrenci No</label>
+      <br/>
+      <input id="studentNum" type="text" />
+      <br/>
+      <label>Şifre</label>
+      <br/>
+      <input id="studentPass" type="password" />
+      <br/>
+      <input type="checkbox" id="autologin" value="autologin">Doğruysa otomatik giriş yap
+      <br/>
+      <input type="checkbox" id="disabled" value="disabled">Eklentiyi devre dışı bırak
+      <br/>
+      <button id="save" value="save">Kaydet</button>
+      <p id="result"></p>
+      <p>Bu yazılım ve eklenti <a href="http://www.ahmetcanaydemir.com">Ahmet Can Aydemir</a> tarafından 2019 tarihinde yazıldı. Bilgileriniz sadece sizin bilgisayarınızda depolanmaktadır.</p>
+      <p>Kodları <a href="https://www.github.com/ahmetcanaydemir/otomatikobis"/> github</a> üzerinden inceleyebilirsiniz.</p>
+      <script src="popup.js"></script>
+   </body>
+</html>
