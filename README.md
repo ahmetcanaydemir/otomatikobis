@@ -25,4 +25,4 @@ This [article](https://medium.com/@ageitgey/how-to-break-a-captcha-system-in-15-
 - Report issues
 - Open pull request with improvements
 - Spread the word
-- Reach out with any feedback ![Twitter URL](https://img.shields.io/twitter/follow/ahmetcanaydemir.svg?style=social)
+- Reach out with any feedback [![Twitter URL](https://img.shields.io/twitter/follow/ahmetcnaydemir.svg?style=social)](https://twitter.com/intent/follow?screen_name=ahmetcnaydemir)
